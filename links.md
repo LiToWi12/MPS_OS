@@ -9,11 +9,12 @@ https://lowlevel.eu/wiki/Kategorie:OS-Dev_f%C3%BCr_Einsteiger </br>
 # Boootloader
 https://www.lowlevel.eu/wiki/Eigener_Bootloader </br>
 https://github.com/rhboot/grub2/tree/a53e530f8ad3770c3b03c208c08ae4162f68e3b1 </br>
+https://www.gnu.org/software/grub/manual/grub/grub.html#Introduction </br>
+
 
 # C
 https://youtube.com/playlist?list=PLNmsVeXQZj7q4shI4L__SRpetWff9BjLZ </br>
 https://www.c-howto.de/tutorial/ </br>
-https://www.gnu.org/software/grub/manual/grub/grub.html#Introduction </br>
 
 # Online C Compiler
 https://www.onlinegdb.com/online_c_compiler </br>

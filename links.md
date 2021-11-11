@@ -8,6 +8,7 @@ https://lowlevel.eu/wiki/Kategorie:OS-Dev_f%C3%BCr_Einsteiger </br>
 
 # Boootloader
 https://www.lowlevel.eu/wiki/Eigener_Bootloader </br>
+https://github.com/rhboot/grub2/tree/a53e530f8ad3770c3b03c208c08ae4162f68e3b1 </br>
 
 # C
 https://youtube.com/playlist?list=PLNmsVeXQZj7q4shI4L__SRpetWff9BjLZ </br>

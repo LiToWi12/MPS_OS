@@ -13,6 +13,7 @@ https://github.com/rhboot/grub2/tree/a53e530f8ad3770c3b03c208c08ae4162f68e3b1 </
 # C
 https://youtube.com/playlist?list=PLNmsVeXQZj7q4shI4L__SRpetWff9BjLZ </br>
 https://www.c-howto.de/tutorial/ </br>
+https://www.gnu.org/software/grub/manual/grub/grub.html#Introduction </br>
 
 # Online C Compiler
 https://www.onlinegdb.com/online_c_compiler </br>

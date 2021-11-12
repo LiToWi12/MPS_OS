@@ -1,75 +1,57 @@
-// Calculator
+// Basic Declarations and Expressions
 
-#include <stdio.h>
+// 1
+printf("Name		:	Noah Zepner\n");
+printf("Geburtstag	:	September 25, 2003\n");
+printf("Handynummer	:	+49 178 3391546\n");
 
-// Variablen
-float Num1;
-float Num2;
+// 3
+printf("######\n");
+printf("#\n");
+printf("#\n");
+printf("#####\n");
+printf("#\n");
+printf("#\n");
+printf("#\n");
 
-void ScanForNum() {
-	printf("Wert 1: ");
-	scanf_s("%f", &Num1);
-	printf("Wert 2: ");
-	scanf_s("%f", &Num2);
-	printf("\n");
-};
+// 4
+char char1 = 'X';
+char char2 = 'M';
+char char3 = 'L';
 
-void Addition() {
-	float temp;
+printf("The reverse of %c%c%c is %c%c%c\n", char1, char2, char3, char3, char2, char1);
 
-	ScanForNum();
-	temp = Num1 + Num2;
-	printf("Das Ergebniss ist: %f\n", temp);
-}
+// 5 (mit Input)
+int breite;
+int hoehe;
 
-void Subtraktion() {
-	float temp;
+int umfang;
+int flaecheninhalt;
 
-	ScanForNum();
-	temp = Num1 - Num2;
-	printf("Das Ergebniss ist: %f\n", temp);
-}
+printf("Diese Programm berechnet dir denn Umfang und den Flaecheninhalt eines Rechtecks.\n\n");
 
-void Multipikation() {
-	float temp;
+printf("Breite:		");
+scanf_s("%d", &breite);
+printf("Hoehe:		");
+scanf_s("%d", &hoehe);
 
-	ScanForNum();
-	temp = Num1 * Num2;
-	printf("Das Ergebniss ist: %f\n", temp);
-}
+umfang = 2 * (breite + hoehe);
+flaecheninhalt = breite * hoehe;
 
-void Division() {
-	float temp;
+printf("\nUmfang:		%d\nFlaecheninhalt:	%d\n", umfang, flaecheninhalt);
 
-	ScanForNum();
-	temp = Num1 / Num2;
-	printf("Das Ergebniss ist: %f\n", temp);
-}
+// 6 (mit Input)
+int radius;
 
-int main() {
-	int temp_Art;
-	int temp_Anzahl;
+int umfang;
+int flaecheninhalt;
 
-	// User Input
-	printf("Was soll gerechnet werden? \n 1 = Addition \n 2 = Subtraktion \n 3 = Multiplikation \n 4 = Division \n\n");
-	scanf_s("%d", &temp_Art);
+printf("Diese Programm berechnet dir denn Umfang und den Flaecheninhalt eines Kreises.\n\n");
 
-	switch (temp_Art) {
-		case 1: 
-			Addition();
-			break;
-		case 2: 
-			Subtraktion();
-			break;
-		case 3: 
-			Multipikation();
-			break;
-		case 4: 
-			Division();
-			break;
-	}
+printf("Radius:		");
+scanf_s("%d", &radius);
 
-	return 0;
-}
+umfang = 2 * 3.14159 * radius;
+flaecheninhalt = 3.14159 * radius * radius;
 
-
+printf("\nUmfang:		%d\nFlaecheninhalt:	%d\n", umfang, flaecheninhalt);

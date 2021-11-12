@@ -55,3 +55,49 @@ umfang = 2 * 3.14159 * radius;
 flaecheninhalt = 3.14159 * radius * radius;
 
 printf("\nUmfang:		%d\nFlaecheninhalt:	%d\n", umfang, flaecheninhalt);
+
+// Basic Algorithm
+
+// 1
+int Wert1;
+int Wert2;
+
+int Ergebniss;
+
+printf("Geben sie zwei Werte ein:\n");
+printf("Wert 1: ");
+scanf_s("%d", &Wert1);
+printf("Wert 2: ");
+scanf_s("%d", &Wert2);
+printf("\n");
+
+if (Wert1 == Wert2) {
+	Ergebniss = (Wert1 + Wert2) * 3;
+}
+else
+{
+	Ergebniss = Wert1 + Wert2;
+}
+
+printf("Das Ergebniss ist: %d\n\n", Ergebniss);
+
+// 2
+int Wert;
+int Differenz;
+
+printf("Wert: ");
+scanf_s("%d", &Wert);
+
+
+if (Wert <= 51) {
+	Differenz = 51 - Wert;
+}
+else
+{
+	Differenz = (Wert - 51) * 3;
+}
+
+
+printf("%d", Differenz);
+
+// 

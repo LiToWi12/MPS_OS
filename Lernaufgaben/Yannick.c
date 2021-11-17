@@ -31,3 +31,22 @@ void main() {
     printf("Du bist %s und bist %03d Jahre alt!", name, age);
     
 }
+
+
+
+//Aufgabe Kreisberechnung
+
+#include <stdio.h>
+#define _USE_MATH_DEFINES
+#include <math.h>
+
+float radius;
+
+void main() {
+
+    printf("Geben Sie den Radius ein.\n");
+    scanf_s("%f", &radius);
+    printf("Der Umfang des Kreises mit dem Radius %f beträgt %f.\n", radius, (2 * radius * M_PI));
+    printf("Der Flächeninhalt beträgt %f.", (radius * M_PI * M_PI));
+
+}

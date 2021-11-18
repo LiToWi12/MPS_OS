@@ -19,7 +19,11 @@ Aufgaben die im aktuellen Sprint sind werden mit einer Sprechblase gekennzeichne
 ## Theme
 
 ## Epic
-
+Rechner Erstellen 🇦🇷 </br>
+Bootloader und low-level Anfang 🏴 </br>
 ## User Stories
-
+Multiplikationen und Divisionen berechnen 🇦🇷 </br>
+Hello World programm erstellen und testen 🏴</br> 
 ## Task
+Multiplikation umsetzen 🇦🇷 </br>
+Division umsetzen 🇦🇷 </br>

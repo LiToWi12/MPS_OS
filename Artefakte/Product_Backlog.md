@@ -23,7 +23,7 @@ Rechner Erstellen 🇦🇷 </br>
 Bootloader und low-level Anfang 🏴 </br>
 ## User Stories
 Multiplikationen und Divisionen berechnen 🇦🇷 </br>
-Hello World programm erstellen und testen 🏴</br> 
+Hello World Programm erstellen und testen 🏴</br> 
 ## Task
 Multiplikation umsetzen 🇦🇷 </br>
 Division umsetzen 🇦🇷 </br>

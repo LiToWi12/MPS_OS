@@ -29,3 +29,5 @@ http://home.in.tum.de/~hauffa/slides.pdf </br>
 # Download Links
 Qemu - https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-20210810.exe </br>
 [ https://qemu.weilnetz.de/w64/2021/ ]</br> 
+
+GRUB kalinnik.de/info/grub-2.06 </br>
